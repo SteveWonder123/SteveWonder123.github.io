@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>order food</title>
+    <style>
+            body {
+            background-color: springgreen;
+        }
+        
+        .boxed {
+            background-color: aqua;
+        }
+        
+        .boxed2 {
+            background-color: fuchsia;
+        }
+        
+        img {
+            width: 68px;
+            height: 64px;
+        }
+        
+        .btn {
+            width: 70px;
+            height: 26px;
+            background-color: aqua;
+            border: solid green 2px;
+            border-radius: 10px;
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="boxed">
+            <article>
+                <h2>My Information</h2>
+            </article>
+            <select name="humen" id="">
+                <option value="Mr.">Mr.</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Miss.">Miss.</option>
+            </select>
+
+            <section>
+                <label for="">Name</label>
+                <input name="Name" type="text">
+            </section>
+
+            <section>
+                <label for="">Email</label>
+                <input name="Email" type="text">
+            </section>
+
+            <section>
+                <label for="">Phone</label>
+                <input name="Phone" type="text">
+
+
+            </section>
+            <select name="WhereILive" id="">
+                <option value="Alberta">Alberta</option>
+                <option value="British Columbia">British Columbia</option>
+                <option value="Manitoba">Manitoba</option>
+                <option value="New Brunswick">New Brunswick</option>
+                <option value="Newfoundland">Newfoundland</option>
+                <option value="Nova Scotia">Nova Scotia</option>
+                <option value="Ontario">Ontario</option>
+                <option value="Prince Edward Island">Prince Edward Island</option>
+                <option value="Quebec"> Quebec</option>
+
+            </select>
+
+        </div>
+        <div class="boxed2">
+            <article>
+
+                <h2>order infromation</h2>
+
+            </article>
+
+            <input type="checkbox" name="food" value="pizza"><img src="img/Kartoffel_pizza_(with_border).jpg" alt="pizza">
+            <input type="checkbox" name="food" value="hotdog"><img src="img/Hot_dog_with_mustard.png" alt="hotdog">
+            <input type="checkbox" name="food" value="deef burger"><img src="img/Italian_Sandwich.jpeg" alt="sandwich">
+            <input type="checkbox" name="food" value="soup"><img src="img/download.jpeg" alt="soup">
+
+            <h5>people (1-4):</h5>
+            <input type="range" min=1 max=4>
+
+            <section>
+                <label for="">Date:</label>
+                <input name="Date" type="date">
+            </section>
+            <section>
+                <label for="time">Time:</label>
+                <input name="time" type="time">
+            </section>
+            <input type="checkbox" name="pay" value="Mastercard">Mastercard
+            <input type="checkbox" name="pay" value="visa card">Visa card
+            <input type="checkbox" name="pay" value="paypal">Paypal
+
+            <h5>Comments:</h5>
+            <textarea name="sss" id="ssss" cols="66" rows="10"></textarea>
+        </div>
+        <input class="btn" type="submit">
+    </form>
+</body>
+
+</html>
