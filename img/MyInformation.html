@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style>
+    .container {
+        
+            padding: 1px;
+    }    
+        
+      .btn {
+            width: 70px;
+            height: 26px;
+            background-color: aqua;
+            border: solid green 2px;
+            border-radius: 10px;
+    }
+    
+    .first-col {
+        width: 74px;
+        display: inline-block;
+        height: 1.5em;
+        margin: 0;
+    }
+    
+    .second-col {
+        height: 2.5em;
+        display: inline-block;
+        margin: 0;
+        width: 417px;
+    }
+    
+</style>
+</head>
+<body>
+   <form action="">
+        <fieldset>
+            <legend>My information</legend>
+               <form>    
+               <select name="title" id="title">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+                <option value="miss">Miss.</option>
+            </select>
+            <br>
+
+            <div class="container">
+                <label for="name" class="first-col">Name:</label>
+                <input class="second-col" type="text" id="name" name="name" placeholder="Please enter your full name">
+            </div>
+            <div class="container">
+                <label for="email" class="first-col">Email:</label>
+                <input class="second-col" type="email" id="email" name="email" placeholder="Please enter your email">
+            </div>
+            <div class="container">
+                <label for="phone" class="first-col">Phone:</label>
+                <input class="second-col" name="phone" type="phone" placeholder="Please enter your phone number">
+            </div>
+             <div class="container">
+            <textarea name="comments" id="comments" cols="80" rows="10" placeholder="Please leave your comments"></textarea>
+            </div>
+             <input class="btn" type="submit">
+    </form>
+       </fieldset>
+</body>
+</html>

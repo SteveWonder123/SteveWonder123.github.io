@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #face {
+            background-color: yellow;
+            width: 437px;
+            height: 437px;
+            border-radius: 204px;
+        }
+        
+        .eye {
+            width: 108px;
+            height: 112px;
+            border-radius: 62px;
+            background-color: white;
+            position: absolute;
+            top: 127px;
+        }
+        
+        .left {
+            left: 115px;
+        }
+        
+        .right {
+            left: 234px;
+        }
+        
+        .eyeball {
+            background-color: black;
+            width: 88px;
+            height: 88px;
+            border-radius: 1000px;
+            position: absolute;
+            left: 12px;
+            top: 35px;
+        }
+        
+        #mouth {
+            width: 160px;
+            border: solid 21px;
+            height: 98px;
+            border-bottom-left-radius: 86px;
+            border-bottom-right-radius: 86px;
+            margin-left: 97px;
+            position: absolute;
+            top: 272px;
+        }
+        
+        #background {
+            width 400px;
+            height: 437px;
+            border: solid 2px;
+            background-color: aqua;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="background">
+        <div id="face">
+            <div class="eye left">
+                <div class="eyeball">
+                </div>
+            </div>
+            <div class="eye right">
+                <div class="eyeball"></div>
+            </div>
+            <div id="mouth"></div>
+        </div>
+    </div>
+</body>
+
+</html>
